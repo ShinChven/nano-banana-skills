@@ -15,6 +15,7 @@ This project is a collection of AI agent skills designed for **Nano Banana**, fo
 | [anime-to-life-json](skills/anime-to-life-json/SKILL.md) | Transforms anime, art, or 3D rendering images into photorealistic cosplay-style photographs using a specific JSON-based prompt structure. |
 | [character-reference-sheet](skills/character-reference-sheet/SKILL.md) | Generates a 1:1 split-screen (front/back) character reference sheet, mirroring facial, physical, and costume details. |
 | [photo-restoration](skills/photo-restoration/SKILL.md) | Restores vintage and blurry photos to high-definition 8k images while preserving identity. |
+| [real-mecha](skills/real-mecha/SKILL.md) | Converts 2D/anime mecha art into photorealistic 3D/real-world visualizations with high-fidelity material textures. |
 
 ## Contributing
 
