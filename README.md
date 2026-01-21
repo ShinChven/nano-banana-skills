@@ -2,6 +2,12 @@
 
 This project is a collection of AI agent skills designed for **Nano Banana**, focusing on advanced image generation capabilities.
 
+## How to use this agent skills in Gemini App
+
+1. Create a `git repo` with your skills.
+2. Create a `gem` in the Gemini app and add the skills repo as `Knowledge`.
+3. **Say the name** of the skill to use it.
+
 ## Project Structure
 
 - **`skills/`**: This directory contains the individual agent skills. Each skill is a self-contained folder with its own instructions and scripts.
