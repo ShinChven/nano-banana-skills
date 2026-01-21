@@ -55,3 +55,6 @@ Action: <Description of action or exact command to run>
 - **Scripts**: Prefer independent CLI scripts in the `scripts/` folder over complex library imports.
 - **Paths**: All paths in instructions should be relative to the project root or the skill directory as appropriate (usually project root for execution).
 - **Conciseness**: Keep the description and instructions sharp. Agents use the description to decide whether to load the full skill.
+
+## 5. Documentation
+Update readme skills table accordingly.
