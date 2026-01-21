@@ -9,7 +9,10 @@ This project is a collection of AI agent skills designed for **Nano Banana**, fo
 
 ## Available Skills
 
-- **[Anime to Life](skills/anime-to-life/SKILL.md)**: Transforms anime, art, or 3D character images into photorealistic cosplay photos, preserving the character's details and background.
+| Name | Description |
+| :--- | :--- |
+| [anime-to-life](skills/anime-to-life/SKILL.md) | Transforms anime, art, or 3D character images into photorealistic cosplay photos, preserving the character's details and background. |
+| [anime-to-life-json](skills/anime-to-life-json/SKILL.md) | Transforms anime, art, or 3D rendering images into photorealistic cosplay-style photographs using a specific JSON-based prompt structure. |
 
 ## Contributing
 
