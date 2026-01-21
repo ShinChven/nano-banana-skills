@@ -16,29 +16,36 @@ Analyzes an attached character image to perform deep feature extraction (facial 
 - "Analyze this character and create a reference image."
 
 ## Instructions
-1.  **Analyze the User's Request and Image**:
-    - **Facial Physiognomy**: Identify exact eye color/shape, nose structure, jawline, and facial proportions.
-    - **Physical Attributes**: Identify hair texture, hair color, skin tone, and body type.
-    - **Costume Details**: Identify specific texture, material properties, and color palette of the clothing.
+1.  **Research Character (Visual & Web Search)**:
+    - **Visual Analysis**: detailed feature extraction (physiognomy, attributes, costume).
+    - **Web Search**: If the character appears to be from a franchise or has a name, use `search_web` to find setting/lore details to inform dynamic poses.
 
 2.  **Construct the Image Generation Prompt**:
-    - **Subject**: "A split-screen character reference sheet featuring [Character Description]..."
-    - **Views**: "...showing two full-body views: Left Side is Front view, Right Side is Back view."
+    - **Layout & Views**:
+        - **Default (Split Screen)**: "Split-screen, Left: Front view, Right: Back view."
+        - **2x2 Layout**: "Four-panel grid. Top-Left: Front view. Top-Right: Back view. Bottom-Left & Bottom-Right: Dynamic action poses [based on character setting]."
+        - **3x3 Layout**: "Nine-panel grid. Center: Front view. Top-Center: Back view. Remaining panels: Varied dynamic poses and close-ups [based on character setting]."
+        - **Mandatory**: Front and Back views are *always* required.
     - **Background**: "...on a simple color background."
-    - **Details**: "Exact mirror of facial features (eyes, nose, jawline), physical attributes (hair, skin, body), and costume details (texture, material, colors) from the source."
-    - **Visual Constraints**: "Aspect Ratio 1:1. Style Fidelity: Retain the exact visual style, rendering technique, and lighting quality of the source image."
+    - **Details**: "Exact mirror of facial features, physical attributes, and costume details from the source."
+    - **Visual Constraints**: "Style Fidelity: Retain the exact visual style, rendering technique, and lighting quality of the source image."
 
 3.  **Generate the Image**:
-    - Use the image generation tool.
-    - Pass the constructed prompt.
-    - Pass the user's uploaded image path in the reference image parameter to use as a reference.
+    - Use the image generation tool with the constructed prompt and the user's reference image.
 
 ## Tools / Commands
+- `search_web`: To research character background/setting.
 - Image generation tool: To generate the reference sheet.
 
 ## Examples
 User: "Create a reference sheet for this character." (User attaches `[image]`)
 Action:
-1. Analyze `[image]`: "Male, spiky blue hair, scar on left cheek, silver armor with gold trim..."
-2. Construct Prompt: "A split-screen character reference sheet featuring a male warrior with spiky blue hair and a scar on his left cheek, wearing silver armor with gold trim. Left side: Front view. Right side: Back view. Simple color background. High fidelity to source style and details."
-3. Call the image generation tool with the constructed prompt and image paths.
+1.  **Research**: Analyze `[image]`. (Optional) Web search if character is recognized.
+2.  **Prompt**: "A split-screen character reference sheet... Left: Front, Right: Back..."
+3.  **Generate**: Call tool.
+
+User: "Make a 3x3 reference sheet for 'Cloud Strife'." (User attaches `[image]`)
+Action:
+1.  **Research**: Recognize "Cloud Strife". Search web -> "FF7, Buster Sword, Soldier pose".
+2.  **Prompt**: "Nine-panel grid character sheet for Cloud Strife. Center: Front static. Top-Center: Back static. Surrounding panels: Dynamic sword swings, limit break poses. High fidelity to source."
+3.  **Generate**: Call tool.
