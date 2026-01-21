@@ -1,7 +1,7 @@
 ---
 name: anime-to-life-json
 description: Transforms anime, art, or 3D rendering images into photorealistic cosplay-style photographs using a specific JSON-based prompt structure.
-version: 1.0.1
+version: 1.0.0
 ---
 
 # Anime to Life
