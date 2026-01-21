@@ -31,17 +31,17 @@ Transforms an uploaded anime, art, or 3D rendering image into a photorealistic p
     - **Style**: "Photorealistic, high quality, 8k, realistic texture, realistic lighting."
 
 3.  **Generate the Image**:
-    - Use the `generate_image` tool.
+    - Use the image generation tool.
     - Pass the constructed prompt.
-    - Pass the user's uploaded image path in `ImagePaths` to use as a reference/control.
+    - Pass the user's uploaded image path in the reference image parameter to use as a reference/control.
 
 ## Tools / Commands
-- `generate_image`: To generate the photorealistic image.
+- Image generation tool: To generate the photorealistic image.
 
 ## Examples
-User: "Turn this anime picture into a real photo." (User attaches `character.png`)
+User: "Turn this anime picture into a real photo." (User attaches `[image]`)
 Action:
 1. Identify character (e.g., Hatsune Miku).
 2. Determine ethnicity (Japanese).
 3. Construct prompt: "A photorealistic photo of a Japanese cosplayer cosplaying as Hatsune Miku, same physique, posture, teal twin-tails, school uniform, holding a leek, dynamic pose, happy expression. Anime-inspired aesthetic face, refined makeup. Matching camera angle and framing. Detailed realistic stage background."
-4. Call `generate_image(Prompt="...", ImagePaths=["/path/to/character.png"], ImageName="real_miku")`
+4. Call the image generation tool with the constructed prompt and image paths.

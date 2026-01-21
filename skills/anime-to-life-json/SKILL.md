@@ -39,17 +39,17 @@ Transforms an uploaded anime, art, or 3D rendering image into a photorealistic p
 }
 ```
 
-4.  **Generate**: Use the `generate_image` tool.
+4.  **Generate**: Use the image generation tool.
     - **Prompt**: Construct a comprehensive prompt based on the JSON logic above, incorporating the identified character details and constraints.
-    - **ImagePaths**: Include the user's original uploaded image path to ensure the pose and composition are matched.
+    - **Reference Images**: Include the user's original uploaded image path to ensure the pose and composition are matched.
 
 ## Tools / Commands
 - `search_web`: specific inputs: `query="character name appearance details"`
-- `generate_image`: specific inputs: `Prompt="..."`, `ImagePaths=["..."]`
+- Image generation tool: specific inputs: `Prompt="..."`, `Reference Images=["..."]`
 
 ## Examples
 User: [Uploads image of detailed anime girl] "Bring this to life."
 Action:
 1. Agent searches to identify the character (e.g., "Asuka Langley Soryu").
 2. Agent follows the JSON logic to construct the prompt parameters.
-3. Agent calls `generate_image(Prompt="Real person cosplayer, Asuka Langley Soryu...", ImagePaths=["/path/to/image.jpg"])`.
+3. Agent calls the image generation tool with the constructed prompt and image paths.
