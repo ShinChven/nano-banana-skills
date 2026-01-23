@@ -1,47 +1,55 @@
 ---
 name: anime-to-life
-description: Transforms anime, art, or 3D character images into photorealistic cosplay photos.
+description: Transforms anime, art, or 3D rendering images into photorealistic cosplay-style photographs using a specific JSON-based prompt structure.
 version: 1.0.0
 ---
 
 # Anime to Life
 
 ## Capability
-Transforms an uploaded anime, art, or 3D rendering image into a photorealistic photograph featuring the same character in the same background, rendered as a real person cosplayer.
+Transforms an uploaded anime, art, or 3D rendering image into a photorealistic photograph. It generates a real person (cosplayer) matching the character's features, pose, and background details in a realistic style.
 
 ## Triggers
-- User uploads an image and asks to "turn this into a real person".
-- "Make this realistic".
-- "Anime to real life".
-- "Cosplay version of this character".
+- User uploads an anime, art, or 3D image and asks to "bring it to life", "make it real", "realistic version", or "generate a photo of this".
 
 ## Instructions
-1.  **Analyze the User's Request and Image**:
-    - Identify the character in the uploaded image. Search if necessary to determine ethnicity (Russian or Japanese default).
-    - Note the character's physique, posture, expression, pose, position, props, eye color, and clothing.
-    - Note the camera angle and framing.
-    - Note the background details.
+1.  **Analyze Input**: Analyze the input image features.
+2.  **Identify Character**:
+    - Use `search_web` to fully identify the character.
+    - Retrieve: Name, source material, canonical ethnicity, and detailed appearance traits (hair, eyes, clothing, accessories).
+3.  **Execute Logic**: Apply the retrieved data to the following **Core Prompt Logic**:
 
-2.  **Construct the Image Generation Prompt**:
-    - **Subject**: "A photorealistic photo of a [Russian/Japanese] cosplayer cosplaying as [Character Name] from [Source Material]..."
-    - **Details**: "...having the same physique, posture, expression, pose, position, props, eye color, and clothing as the original character."
-    - **Face**: "Facial features should retain an anime-inspired aesthetic—like those of a cosplayer idol with refined makeup and an elegant appearance."
-    - **Angle**: "Match the angle and framing of the uploaded image."
-    - **Background**: "Background matching the original image but rendered in a realistic style."
-    - **Style**: "Photorealistic, high quality, 8k, realistic texture, realistic lighting."
+```json
+{
+  "name": "anime_to_life",
+  "task": "User uploads an anime or art or 3D rendering image, the AI will completely generate a photorealistic photograph featuring the same character in the same background. Character and environment both transformed to photorealistic style yet retaining original features.",
+  "pre_processing": {
+    "step_1": "Analyze input image features",
+    "step_2": "Use SEARCH to fully identify the character: retrieve name, source material, canonical ethnicity, and detailed appearance traits (hair, eyes, clothing, accessories)",
+    "step_3": "Apply retrieved data to the subject parameters below"
+  },
+  "subject": "Real person cosplayer (Russian or Japanese ethnicity based on character identity), pretty appearance with delicate and refined idol-style makeup, anime-inspired facial features, identical physique, eye color, clothing, hair and props to the original character",
+  "action": "Exact match of original pose, position, and facial expression",
+  "environment": "The original background shall be rendered in a realistic style matching the source image",
+  "lighting": "Photorealistic lighting matching the source image's mood and direction",
+  "camera": "Identical framing and camera angle to the uploaded image, photorealistic lens characteristics",
+  "style": "Photorealistic photography, high fidelity, 8k, realistic skin texture, authentic fabric details, cosplay photography style",
+  "negative_constraint": "The generated image must NOT look like art, anime, CGI, 3D rendering, drawing, or painting. It must be a photorealistic photograph.",
+  "final_step": "GENERATE the image"
+}
+```
 
-3.  **Generate the Image**:
-    - Use the image generation tool.
-    - Pass the constructed prompt.
-    - Pass the user's uploaded image path in the reference image parameter to use as a reference/control.
+4.  **Generate**: Use the image generation tool.
+    - **Prompt**: Construct a comprehensive prompt based on the JSON logic above, incorporating the identified character details and constraints.
+    - **Reference Images**: Include the user's original uploaded image path to ensure the pose and composition are matched.
 
 ## Tools / Commands
-- Image generation tool: To generate the photorealistic image.
+- `search_web`: specific inputs: `query="character name appearance details"`
+- Image generation tool: specific inputs: `Prompt="..."`, `Reference Images=["..."]`
 
 ## Examples
-User: "Turn this anime picture into a real photo." (User attaches `[image]`)
+User: [Uploads image of detailed anime girl] "Bring this to life."
 Action:
-1. Identify character (e.g., Hatsune Miku).
-2. Determine ethnicity (Japanese).
-3. Construct prompt: "A photorealistic photo of a Japanese cosplayer cosplaying as Hatsune Miku, same physique, posture, teal twin-tails, school uniform, holding a leek, dynamic pose, happy expression. Anime-inspired aesthetic face, refined makeup. Matching camera angle and framing. Detailed realistic stage background."
-4. Call the image generation tool with the constructed prompt and image paths.
+1. Agent searches to identify the character (e.g., "Asuka Langley Soryu").
+2. Agent follows the JSON logic to construct the prompt parameters.
+3. Agent calls the image generation tool with the constructed prompt and image paths.
