@@ -22,6 +22,7 @@ This project is a collection of AI agent skills designed for **Nano Banana**, fo
 | [photo-restoration](skills/photo-restoration/SKILL.md) | Restores vintage and blurry photos to high-definition 8k images while preserving identity. |
 | [figure-to-life](skills/figure-to-life/SKILL.md) | Converts figure photos to photorealistic human cosplayer images using a strict JSON-based reasoning mandate. |
 | [real-mecha](skills/real-mecha/SKILL.md) | Converts 2D/anime mecha art into photorealistic 3D/real-world visualizations with high-fidelity material textures. |
+| [imax-portrait](skills/imax-portrait/SKILL.md) | Expands and recomposes images into an IMAX 70mm portrait style (1.43:1 aspect ratio) with high-fidelity Christopher Nolan-esque aesthetics. |
 
 ## Contributing
 
