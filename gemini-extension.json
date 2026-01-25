@@ -1,0 +1,37 @@
+{
+  "name": "nano-banana-skills",
+  "description": "A collection of AI agent skills designed for Nano Banana, focusing on advanced image generation capabilities.",
+  "version": "1.0.0",
+  "skills": [
+    {
+      "name": "anime-to-life",
+      "description": "Transforms anime, art, or 3D rendering images into photorealistic cosplay-style photographs using a specific JSON-based prompt structure.",
+      "path": "skills/anime-to-life/SKILL.md"
+    },
+    {
+      "name": "character-reference-sheet",
+      "description": "Generates a 1:1 split-screen (front/back) character reference sheet, mirroring facial, physical, and costume details from an uploaded image.",
+      "path": "skills/character-reference-sheet/SKILL.md"
+    },
+    {
+      "name": "figure-to-life",
+      "description": "Converts figure photos to photorealistic human cosplayer images using a strict JSON-based reasoning mandate.",
+      "path": "skills/figure-to-life/SKILL.md"
+    },
+    {
+      "name": "imax-portrait",
+      "description": "Expands and recomposes images into an IMAX 70mm portrait style (1.43:1 aspect ratio) with high-fidelity Christopher Nolan-esque aesthetics.",
+      "path": "skills/imax-portrait/SKILL.md"
+    },
+    {
+      "name": "photo-restoration",
+      "description": "Restores vintage and blurry photos to high-definition 8k images while preserving identity.",
+      "path": "skills/photo-restoration/SKILL.md"
+    },
+    {
+      "name": "real-mecha",
+      "description": "Converts 2D/anime mecha art into photorealistic 3D/real-world visualizations with high-fidelity material textures.",
+      "path": "skills/real-mecha/SKILL.md"
+    }
+  ]
+}
