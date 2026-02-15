@@ -24,10 +24,16 @@ The goal is maximum allure and "otaku-bait" appeal. The mood should be intimate,
 
 **Step 3: MANDATORY Action: Generate a NEW Seductive Pose**
 You must invent a dynamic, highly alluring pose that emphasizes body curves and interaction. Do NOT use a static standing pose. Choose one of the following gravure tropes and execute it:
-* **Trope A (The Arch):** Kneeling or sitting on heels, arching the back significantly to emphasize the waist-to-hip ratio and chest.
-* **Trope B (The Vulnerable Lay):** Lying on the stomach or side on a surface (bed, floor), propped up on elbows, looking up intensely at the camera with a "come hither" look.
-* **Trope C (The Interaction):** Gently pulling a strap of the costume, biting a finger, or pushing hair back to expose the neck—an action that suggests undressing or tension.
-* **Trope D (The Squeeze):** Pressing arms against the chest to enhance cleavage, while leaning into the camera.
+* standing with back partially to camera, looking over one shoulder, one hand on hip, the other arm relaxed at side, soft three-quarter lighting
+* kneeling on both knees, sitting back on heels, torso leaning slightly forward, hands resting flat on thighs, direct eye contact, low-angle shot
+* lying on side, propped up on one elbow, top leg bent and resting over the bottom leg, chin tilted upward, gazing at viewer
+* sitting on floor with knees drawn up, arms loosely wrapped around shins, head resting on knees, looking up with parted lips
+* standing against a wall, one knee bent with foot pressed to wall, arms raised and hands clasped behind head, hip cocked to the side
+* reclining on back, one arm stretched above head, the other hand lightly touching collarbone area, legs slightly bent and crossed at ankles
+* crouching low with knees apart, hands placed on knees, upper body leaning forward, looking up at camera from below
+* sitting backwards on a chair, arms folded over the chair back, chin resting on forearms, legs straddling the seat, sultry upward glance
+* lying on stomach, propped up on elbows, legs bent with feet in the air, head tilted to one side, intense eye contact
+* standing with one hand behind neck, the other hand on hip, body gently arched and swayed to the side, looking directly at viewer with head slightly lowered
 
 **Step 4: Lighting, Texture & Background (Crucial for Vibe)**
 * **Lighting Strategy (Sculpting & Drama):** Abandon generic "soft studio light." Use dramatic, directional lighting (e.g., side-lighting or three-quarter lighting) to sculpt the subject's face, creating gentle, flattering shadows that define cheekbones and jawlines.
