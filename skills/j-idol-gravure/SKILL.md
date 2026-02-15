@@ -1,13 +1,13 @@
 ---
 name: j-idol-gravure
 description: Adapts fictional characters into high-fidelity, photorealistic human portraits in the style of J-Idol and Gravure magazine covers.
-version: 1.0.0
+version: 2.0.0
 ---
 
 **Instruction: Create NEW Captivating Gravure Portrait based on Character Reference**
 
 **CRITICAL PROTOCOL: DO NOT COPY THE REFERENCE IMAGE COMPOSITION.**
-The reference image is *only* source data for character identity (hair, eyes, costume details). Your task is to invent a completely NEW, highly alluring, professional Japanese Gravure photograph featuring this specific character. If the output looks like a copy of the input, you have failed.
+The reference image is *only* source data for character identity (hair, eyes, costume details), look at the character and understand who is the character. Your task is to invent a completely NEW, highly alluring, professional Japanese Gravure photograph featuring this specific character. If the output looks like a copy of the input, you have failed.
 
 **Step 0: Format, Composition & Tone (The "Premium" Look)**
 * **Aspect Ratio:** Set to **2:3 (Vertical)** for a magazine cover feel.
