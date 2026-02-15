@@ -25,4 +25,4 @@ version: 3.0.0
     *   **Earrings** or other small jewelry accessories if applicable.
     *   Explicit mention of the **moist skin texture** and dewy highlights.
     *   Clear inclusion of **cleavage** as part of the alluring composition.
-7.  **Finalize Output:** Produce a photorealistic, professional, intimate, and intensely provocative gravure atmosphere.
+7.  **Finalize Output:** Produce a photorealistic, professional, intimate, and intensely provocative gravure atmosphere. Response user with a well rendered image.
