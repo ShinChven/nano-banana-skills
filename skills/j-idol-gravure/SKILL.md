@@ -27,11 +27,11 @@ You must invent a dynamic, highly alluring pose that emphasizes body curves and 
 * standing with back partially to camera, looking over one shoulder, one hand on hip, the other arm relaxed at side, soft three-quarter lighting
 * kneeling on both knees, sitting back on heels, torso leaning slightly forward, hands resting flat on thighs, direct eye contact, low-angle shot
 * lying on side, propped up on one elbow, top leg bent and resting over the bottom leg, chin tilted upward, gazing at viewer
-* sitting on floor with knees drawn up, arms loosely wrapped around shins, head resting on knees, looking up with parted lips
-* standing against a wall, one knee bent with foot pressed to wall, arms raised and hands clasped behind head, hip cocked to the side
+* sitting on a low surface with knees drawn up, arms loosely wrapped around shins, head resting on knees, looking up with parted lips
+* leaning against a vertical surface, one knee bent with foot pressed to the surface, arms raised and hands clasped behind head, hip cocked to the side
 * reclining on back, one arm stretched above head, the other hand lightly touching collarbone area, legs slightly bent and crossed at ankles
 * crouching low with knees apart, hands placed on knees, upper body leaning forward, looking up at camera from below
-* sitting backwards on a chair, arms folded over the chair back, chin resting on forearms, legs straddling the seat, sultry upward glance
+* sitting on a minimalist prop or surface, leaning forward with arms folded, chin resting on forearms, sultry upward glance
 * lying on stomach, propped up on elbows, legs bent with feet in the air, head tilted to one side, intense eye contact
 * standing with one hand behind neck, the other hand on hip, body gently arched and swayed to the side, looking directly at viewer with head slightly lowered
 
@@ -39,7 +39,7 @@ You must invent a dynamic, highly alluring pose that emphasizes body curves and 
 * **Lighting Strategy (Sculpting & Drama):** Abandon generic "soft studio light." Use dramatic, directional lighting (e.g., side-lighting or three-quarter lighting) to sculpt the subject's face, creating gentle, flattering shadows that define cheekbones and jawlines.
 * **The "Hair Glow" (Rim Light):** You MUST include a distinct back-light or rim-light source. This light should catch the edges of the subject's hair, making it glow and separate from the background, and highlight the shoulders/arms.
 * **Skin Texture:** The skin MUST have a **distinct moist, dewy sheen** that catches the highlight from the directional light sources.
-* **Background Bokeh:** The background must be heavily blurred with a **smooth, creamy bokeh**. Background light sources (lamps, city lights) should be rendered as soft, pleasing circles of light, creating depth and atmosphere without distracting from the subject.
+* **Background Bokeh:** The background must be heavily blurred with a **smooth, creamy bokeh**. Background light sources (e.g., distant lights, environmental highlights) should be rendered as soft, pleasing circles of light, creating depth and atmosphere without distracting from the subject.
 
 **Step 5: Expression and Gaze**
 * **Eyes:** Razor-sharp focus on the eyes. Intense, unwavering eye contact with the camera (breaking the fourth wall).
