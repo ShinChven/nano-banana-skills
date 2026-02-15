@@ -13,7 +13,7 @@ version: 3.1.0
     *   **Color Grade:** Bright and radiant cinematic grade with a warm, golden color temperature. The overall atmosphere should feel high-key and sun-drenched.
     *   **Background:** Extremely heavy, smooth creamy bokeh to make the character pop out from the environment, creating a strong sense of depth and focus.
 4.  **Design Pose & Expression:**
-    *   **Pose:** Brainstorm 5 dynamic gravure poses that emphasize body curves. Select one where the character uses their hands to accent their form—such as gently resting fingers on the waist, brushing hair away from the face, or lightly touching an elbow—to create a sophisticated, alluring silhouette. The pose should focus on graceful tension and a refined, inviting atmosphere (ensure composition includes cleavage).
+    *   **Pose:** Select dynamic gravure poses that emphasize feminine body curves. Incorporate natural, suggestive hand placements (e.g., lightly touching the skin, hair, or clothing) to create an intensely alluring and inviting atmosphere.
     *   **Makeup:** Apply delicate, professional makeup that enhances natural features. Focus on soft, well-defined eyes and natural, dewy tones to complement the high-end magazine aesthetic.
     *   **Expression:** Intense direct eye contact with the camera, with slightly parted, moist, and inviting sultry lips to enhance the alluring atmosphere.
 5.  **Apply Lighting & Texture:**

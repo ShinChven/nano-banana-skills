@@ -25,7 +25,7 @@ This project is a collection of AI agent skills designed for **Nano Banana**, fo
 | [j-idol](skills/j-idol/SKILL.md) | Adapts fictional characters into high-fidelity, photorealistic human portraits in the style of J-Idol and Gravure magazine covers. |
 | [photo-restoration](skills/photo-restoration/SKILL.md) | Restores vintage and blurry photos to high-definition 8k images while preserving identity. |
 | [real-mecha](skills/real-mecha/SKILL.md) | Converts 2D/anime mecha art into photorealistic 3D/real-world visualizations with high-fidelity material textures. |
-| [j-poses](skills/j-poses/SKILL.md) | A library of 10 alluring mature Japanese style photography poses for female characters. |
+| [j-poses](skills/j-poses/SKILL.md) | A library of alluring Japanese style photography poses. |
 
 ## Contributing
 
