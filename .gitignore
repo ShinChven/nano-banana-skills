@@ -2,6 +2,8 @@ output/
 lib/
 .vscode/
 
+*.skill
+
 test/config.json
 
 *.sqlite

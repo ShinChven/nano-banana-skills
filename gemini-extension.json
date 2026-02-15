@@ -42,6 +42,11 @@
       "name": "real-mecha",
       "description": "Converts 2D/anime mecha art into photorealistic 3D/real-world visualizations with high-fidelity material textures.",
       "path": "skills/real-mecha/SKILL.md"
+    },
+    {
+      "name": "j-poses",
+      "description": "A library of 10 alluring mature Japanese style photography poses for female characters. Use when generating or describing photography-style character poses that emphasize elegance and sophistication.",
+      "path": "skills/j-poses/SKILL.md"
     }
   ]
 }
