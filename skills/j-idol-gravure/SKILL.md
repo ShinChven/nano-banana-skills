@@ -4,71 +4,45 @@ description: Adapts fictional characters into high-fidelity, photorealistic huma
 version: 1.0.0
 ---
 
-# J-Idol Gravure
+**Instruction: Create NEW Seductive Gravure Portrait based on Character Reference**
 
-## Capability
-Adapts fictional characters (Anime/Game/CG) into high-fidelity, photorealistic human portraits specializing in "J-Idol" and "Gravure" magazine aesthetics.
+**CRITICAL PROTOCOL: DO NOT COPY THE REFERENCE IMAGE COMPOSITION.**
+The reference image is *only* source data for character identity (hair, eyes, costume details). Your task is to invent a completely NEW, highly seductive, professional Japanese Gravure photograph featuring this specific character. If the output looks like a copy of the input, you have failed.
 
-## Triggers
-- User provides a "Character Name" or a "Reference Image/Sheet" and wants a J-Idol or Gravure magazine style portrait.
+**Step 0: Format & Composition (The "Magazine" Look)**
+* **Aspect Ratio:** Set to **2:3 (Vertical)**. The composition must be a portrait orientation suitable for a magazine cover or photobook page.
+* **Framing:** Use a Medium Shot (mid-thigh or waist up) to focus on the interaction between body curves and the camera.
 
-## Instructions
-1.  **Analyze Input**: Determine if the user provided a Character Name or a Reference Image.
-2.  **Research (if name provided)**: Use `google_web_search` to find canonical details (hair, eyes, outfit, personality).
-3.  **Execute Logic**: Apply the following persona and transformation mandates:
+**Step 1: Extract Character Identity Data (The "Who")**
+Analyze the input to isolate the non-negotiable character signatures:
+* **Identity Lock:** Exact hair color/style and costume details from the reference.
+* **Eye Color Lock:** Extract the exact eye color (including unnatural colors). You MUST render these as realistic, high-quality colored contacts.
 
-*** SYSTEM INSTRUCTION / ACT AS ***
+**Step 2: Define the "Seductive Gravure" Atmosphere (The "Vibe")**
+The goal is maximum allure and "otaku-bait" appeal. The mood should be intimate, slightly vulnerable, yet intensely provocative. It is not just "posing"; it is an active attempt to seduce the viewer through the lens.
 
-ROLE:
-You are an expert AI Photographer and Art Director specializing in "J-Idol" and "Gravure" magazine aesthetics. Your primary function is to adapt fictional characters (Anime/Game/CG) into high-fidelity, photorealistic human portraits.
+**Step 3: MANDATORY Action: Generate a NEW Seductive Pose**
+You must invent a dynamic, highly alluring pose that emphasizes body curves and interaction. Do NOT use a static standing pose. Choose one of the following gravure tropes and execute it:
+* **Trope A (The Arch):** Kneeling or sitting on heels, arching the back significantly to emphasize the waist-to-hip ratio and chest.
+* **Trope B (The Vulnerable Lay):** Lying on the stomach or side on a surface (bed, floor), propped up on elbows, looking up intensely at the camera with a "come hither" look.
+* **Trope C (The Interaction):** Gently pulling a strap of the costume, biting a finger, or pushing hair back to expose the neck—an action that suggests undressing or tension.
+* **Trope D (The Squeeze):** Pressing arms against the chest to enhance cleavage, while leaning into the camera.
 
-INPUT PROTOCOL:
-Wait for the user to provide either a "Character Name" OR a "Reference Image/Sheet".
+**Step 4: Lighting and the "Moist" Texture (Crucial for Allure)**
+The lighting must be soft, flattering studio light designed to make the skin glisten.
+* **Texture Requirement:** The skin MUST have a **distinct moist, dewy sheen** (like light sweat, baby oil, or water mist). This glossiness needs to catch the highlights on shoulders, collarbones, and thighs to enhance the erotic appeal.
 
-PHASE 1: ANALYSIS & RESEARCH
-- IF "Character Name" is provided:
-  1. Search/Recall the character's canonical design (hair style/color, eye shape, signature outfit, accessories).
-  2. Identify the character's personality to select a matching pose (e.g., shy, energetic, sultry, elegant).
-- IF "Reference Image" is provided:
-  1. Analyze the visual features strictly.
-  2. Map the 2D/CG proportions to realistic human anatomy.
+**Step 5: Expression and Gaze**
+* **Eyes:** Razor-sharp focus on the eyes. Intense, unwavering eye contact with the camera (breaking the fourth wall).
+* **Mouth:** Slightly parted, moist lips in a sultry pout or a soft, inviting breathy expression.
 
-PHASE 2: REALITY CONVERSION (CRITICAL)
-You must translate the source material from 2D/3D to **100% Photorealism**.
-- SUBJECT: The subject must look like a beautiful, real-life human model or high-end cosplayer. NO "plastic" skin, NO 2.5D rendering, NO semi-realistic cartoons.
-- FACE & MAKEUP: Apply "delicate, professional idol makeup" (natural gloss, soft blush, defined lashes) rather than heavy costume face paint. The face must have natural human imperfections, pores, and skin texture.
-- OUTFIT: Reinterpret the character's costume using real-world high-fashion materials (silk, satin, leather, textured cotton). It should look like a high-budget cosplay photoshoot.
+**Step 6: Final Execution Check (The "Anti-Copy" Filter)**
+Before finalizing, verify the following:
+1.  Is the aspect ratio strictly 2:3 Vertical?
+2.  Is this pose completely different from the reference image? (If no, restart).
+3.  Is the character identity accurate?
+4.  Is the skin distinctly moist and glossy?
+5.  Is the pose actively seductive according to the tropes in Step 3?
 
-PHASE 3: PHOTOGRAPHY & STUDIO SETTING
-- Lighting: Soft, cinematic studio lighting (Butterfly or Rembrandt) to highlight skin gloss and facial features.
-- Environment: A setting appropriate for a Gravure shoot (e.g., traditional Tatami room, bright bedroom, or moody studio).
-- Camera: 85mm portrait lens, f/1.8 aperture, slight bokeh depth of field.
-
-PHASE 4: MAGAZINE LAYOUT
-Apply the "Gravure Cover" graphic design style:
-- Overlay large, bold Japanese typography (Kanji/Katakana) as the masthead.
-- Include the character's name in an elegant English Serif font.
-- Add realistic details: Barcode, Price (e.g., ¥1200), Issue Number, and small marketing taglines.
-- Aspect Ratio: Vertical (2:3).
-
-OUTPUT GOAL:
-Generate an 8k, highly detailed photograph that looks like a scanned page from a premium Japanese idol magazine.
-
-*** AWAITING INPUT ***
-
-## Tools / Commands
-- `google_web_search`: Use to research character details if only a name is provided.
-- Image generation tool: Use to generate the final portrait based on the instructions.
-
-## Examples
-User: "Make a J-Idol gravure cover for Tifa Lockhart."
-Action:
-1. Agent searches for Tifa Lockhart's canonical design and personality.
-2. Agent applies the photorealistic conversion and magazine layout logic.
-3. Agent generates the 8k vertical image with Japanese typography and magazine details.
-
-User: [Uploads a character reference sheet] "Turn this into a gravure magazine page."
-Action:
-1. Agent analyzes the uploaded image for visual features and anatomy mapping.
-2. Agent applies the reality conversion and studio setting logic.
-3. Agent generates the final magazine-style photograph.
+**Step 7: EXECUTE GENERATION**
+Generate the new, photorealistic seductive gravure image now.
