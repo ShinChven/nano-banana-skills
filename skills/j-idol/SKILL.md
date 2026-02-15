@@ -1,7 +1,7 @@
 ---
 name: j-idol
 description: Adapts fictional characters into high-fidelity, photorealistic human portraits in the style of J-Idol and Gravure magazine photography.
-version: 3.0.0
+version: 3.1.0
 ---
 
 ## declare process
@@ -9,7 +9,7 @@ version: 3.0.0
 1.  **Analyze Reference:** Examine the character in the provided reference image to understand their identity. Determine key appearance characteristics, eye colors, and ethnicity.
 2.  **Generate Concept:** Create a completely NEW, original Japanese Gravure portrait. Use the reference **only** for character identity: maintain exact hair color/style, eye color, and costume details. **Strictly DO NOT copy** the reference composition or pose.
 3.  **Define Composition & Style:**
-    *   **Format:** 9:16 vertical aspect ratio, medium shot (mid-thigh).
+    *   **Format:** 2:3 vertical aspect ratio, knee-up shot. Ensure **ample negative space** around the character to provide compositional breathing room and avoid a cramped feeling; the subject should be comfortably framed to make them truly pop.
     *   **Color Grade:** Bright and radiant cinematic grade with a warm, golden color temperature. The overall atmosphere should feel high-key and sun-drenched.
     *   **Background:** Extremely heavy, smooth creamy bokeh to make the character pop out from the environment, creating a strong sense of depth and focus.
 4.  **Design Pose & Expression:**
@@ -25,4 +25,5 @@ version: 3.0.0
     *   **Earrings** or other small jewelry accessories if applicable.
     *   Explicit mention of the **moist skin texture** and dewy highlights.
     *   Clear inclusion of **cleavage** as part of the alluring composition.
+    *   Instruction for **ample negative space** to ensure professional framing.
 7.  **Finalize Output:** Produce a photorealistic, professional, intimate, and intensely provocative gravure atmosphere. Response user with a well rendered image.
