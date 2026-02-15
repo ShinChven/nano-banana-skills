@@ -4,10 +4,10 @@ description: Adapts fictional characters into high-fidelity, photorealistic huma
 version: 1.0.0
 ---
 
-**Instruction: Create NEW Seductive Gravure Portrait based on Character Reference**
+**Instruction: Create NEW Captivating Gravure Portrait based on Character Reference**
 
 **CRITICAL PROTOCOL: DO NOT COPY THE REFERENCE IMAGE COMPOSITION.**
-The reference image is *only* source data for character identity (hair, eyes, costume details). Your task is to invent a completely NEW, highly seductive, professional Japanese Gravure photograph featuring this specific character. If the output looks like a copy of the input, you have failed.
+The reference image is *only* source data for character identity (hair, eyes, costume details). Your task is to invent a completely NEW, highly alluring, professional Japanese Gravure photograph featuring this specific character. If the output looks like a copy of the input, you have failed.
 
 **Step 0: Format, Composition & Tone (The "Premium" Look)**
 * **Aspect Ratio:** Set to **2:3 (Vertical)** for a magazine cover feel.
@@ -19,21 +19,11 @@ Analyze the input to isolate the non-negotiable character signatures:
 * **Identity Lock:** Exact hair color/style, **eye color**, and costume details from the reference.
 * **Eye Color Lock:** Extract the exact eye color (including unnatural colors). You MUST render these as realistic, high-quality colored contacts.
 
-**Step 2: Define the "Seductive Gravure" Atmosphere (The "Vibe")**
-The goal is maximum allure and "otaku-bait" appeal. The mood should be intimate, slightly vulnerable, yet intensely provocative. It is not just "posing"; it is an active attempt to seduce the viewer through the lens.
+**Step 2: Define the "Alluring Gravure" Atmosphere (The "Vibe")**
+The goal is maximum allure and "otaku-bait" appeal. The mood should be intimate, slightly vulnerable, yet intensely provocative. It is not just "posing"; it is an active attempt to entice the viewer through the lens.
 
-**Step 3: MANDATORY Action: Generate a NEW Seductive Pose**
-You must invent a dynamic, highly alluring pose that emphasizes body curves and interaction. Do NOT use a static standing pose. Choose one of the following gravure tropes and execute it:
-* standing with back partially to camera, looking over one shoulder, one hand on hip, the other arm relaxed at side, soft three-quarter lighting
-* kneeling on both knees, sitting back on heels, torso leaning slightly forward, hands resting flat on thighs, direct eye contact, low-angle shot
-* lying on side, propped up on one elbow, top leg bent and resting over the bottom leg, chin tilted upward, gazing at viewer
-* sitting on a low surface with knees drawn up, arms loosely wrapped around shins, head resting on knees, looking up with parted lips
-* leaning against a vertical surface, one knee bent with foot pressed to the surface, arms raised and hands clasped behind head, hip cocked to the side
-* reclining on back, one arm stretched above head, the other hand lightly touching collarbone area, legs slightly bent and crossed at ankles
-* crouching low with knees apart, hands placed on knees, upper body leaning forward, looking up at camera from below
-* sitting on a minimalist prop or surface, leaning forward with arms folded, chin resting on forearms, sultry upward glance
-* lying on stomach, propped up on elbows, legs bent with feet in the air, head tilted to one side, intense eye contact
-* standing with one hand behind neck, the other hand on hip, body gently arched and swayed to the side, looking directly at viewer with head slightly lowered
+**Step 3: MANDATORY Action: Generate a NEW Enticing Pose**
+You must invent a dynamic, highly alluring pose that emphasizes body curves and interaction. Do NOT use a static standing pose. Randonly think of 5 tempting poses for Japanese style Gravure Portrait. Choose one of most enticing pose to execute.
 
 **Step 4: Lighting, Texture & Background (Crucial for Vibe)**
 * **Lighting Strategy (Sculpting & Drama):** Abandon generic "soft studio light." Use dramatic, directional lighting (e.g., side-lighting or three-quarter lighting) to sculpt the subject's face, creating gentle, flattering shadows that define cheekbones and jawlines.
@@ -55,4 +45,4 @@ Before finalizing, verify the following:
 6.  Is the skin moist and the background bokeh creamy?
 
 **Step 7: EXECUTE GENERATION**
-Generate the new, photorealistic seductive gravure image now.
+Generate the new, photorealistic captivating gravure image now.
