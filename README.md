@@ -19,10 +19,12 @@ This project is a collection of AI agent skills designed for **Nano Banana**, fo
 | :--- | :--- |
 | [anime-to-life](skills/anime-to-life/SKILL.md) | Transforms anime, art, or 3D rendering images into photorealistic cosplay-style photographs using a specific JSON-based prompt structure. |
 | [character-reference-sheet](skills/character-reference-sheet/SKILL.md) | Generates character reference sheets with research-backed details. Supports split-screen (default), 2x2, and 3x3 layouts with mandatory front/back views and dynamic poses. |
-| [photo-restoration](skills/photo-restoration/SKILL.md) | Restores vintage and blurry photos to high-definition 8k images while preserving identity. |
 | [figure-to-life](skills/figure-to-life/SKILL.md) | Converts figure photos to photorealistic human cosplayer images using a strict JSON-based reasoning mandate. |
-| [real-mecha](skills/real-mecha/SKILL.md) | Converts 2D/anime mecha art into photorealistic 3D/real-world visualizations with high-fidelity material textures. |
 | [imax-portrait](skills/imax-portrait/SKILL.md) | Expands and recomposes images into an IMAX 70mm portrait style (1.43:1 aspect ratio) with high-fidelity Christopher Nolan-esque aesthetics. |
+| [j-cover](skills/j-cover/SKILL.md) | Analyzes and reconstructs J-Media and Gravure cover designs using a 4-axis structural layering approach. |
+| [j-idol](skills/j-idol/SKILL.md) | Adapts fictional characters into high-fidelity, photorealistic human portraits in the style of J-Idol and Gravure magazine covers. |
+| [photo-restoration](skills/photo-restoration/SKILL.md) | Restores vintage and blurry photos to high-definition 8k images while preserving identity. |
+| [real-mecha](skills/real-mecha/SKILL.md) | Converts 2D/anime mecha art into photorealistic 3D/real-world visualizations with high-fidelity material textures. |
 
 ## Contributing
 

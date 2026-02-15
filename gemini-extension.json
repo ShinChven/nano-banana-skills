@@ -10,7 +10,7 @@
     },
     {
       "name": "character-reference-sheet",
-      "description": "Generates a 1:1 split-screen (front/back) character reference sheet, mirroring facial, physical, and costume details from an uploaded image.",
+      "description": "Generates character reference sheets with research-backed details. Supports split-screen (default), 2x2, and 3x3 layouts with mandatory front/back views and dynamic poses.",
       "path": "skills/character-reference-sheet/SKILL.md"
     },
     {
@@ -24,6 +24,16 @@
       "path": "skills/imax-portrait/SKILL.md"
     },
     {
+      "name": "j-cover",
+      "description": "Analyzes and reconstructs J-Media and Gravure cover designs using a 4-axis structural layering approach.",
+      "path": "skills/j-cover/SKILL.md"
+    },
+    {
+      "name": "j-idol",
+      "description": "Adapts fictional characters into high-fidelity, photorealistic human portraits in the style of J-Idol and Gravure magazine covers.",
+      "path": "skills/j-idol/SKILL.md"
+    },
+    {
       "name": "photo-restoration",
       "description": "Restores vintage and blurry photos to high-definition 8k images while preserving identity.",
       "path": "skills/photo-restoration/SKILL.md"
@@ -32,11 +42,6 @@
       "name": "real-mecha",
       "description": "Converts 2D/anime mecha art into photorealistic 3D/real-world visualizations with high-fidelity material textures.",
       "path": "skills/real-mecha/SKILL.md"
-    },
-    {
-      "name": "j-idol-gravure",
-      "description": "Adapts fictional characters into high-fidelity, photorealistic human portraits in the style of J-Idol and Gravure magazine covers.",
-      "path": "skills/j-idol-gravure/SKILL.md"
     }
   ]
 }
