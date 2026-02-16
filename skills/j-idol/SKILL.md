@@ -1,7 +1,7 @@
 ---
 name: j-idol
 description: Adapts fictional characters into high-fidelity, photorealistic human portraits in the style of J-Idol and Gravure magazine photography.
-version: 3.1.0
+version: 3.2.0
 ---
 
 ## declare process
@@ -10,14 +10,14 @@ version: 3.1.0
 2.  **Generate Concept:** Create a completely NEW, original Japanese Gravure portrait. Use the reference **only** for character identity: maintain exact hair color/style, eye color, and costume details. **Strictly DO NOT copy** the reference composition or pose.
 3.  **Define Composition & Style:**
     *   **Format:** 2:3 vertical aspect ratio, knee-up shot. Ensure **ample negative space** around the character to provide compositional breathing room and avoid a cramped feeling; the subject should be comfortably framed to make them truly pop.
-    *   **Color Grade:** Bright and radiant cinematic grade with a warm, golden color temperature. The overall atmosphere should feel high-key and sun-drenched.
-    *   **Background:** Extremely heavy, smooth creamy bokeh to make the character pop out from the environment, creating a strong sense of depth and focus.
+    *   **Color Grade:** Soft, dreamy, and ethereal cinematic grade. Implement an "auto-palette" approach where the overall color scheme and background tones are harmoniously derived from the character's outfit to create a cohesive, immersive aesthetic.
+    *   **Background:** Extremely heavy, smooth creamy bokeh with color tones that fit the character's outfit, making the subject pop while maintaining a dreamy vibe.
 4.  **Design Pose & Expression:**
     *   **Pose:** Select dynamic gravure poses that emphasize feminine body curves. Incorporate natural, suggestive hand placements (e.g., lightly touching the skin, hair, or clothing) to create an intensely alluring and inviting atmosphere.
     *   **Makeup:** Apply delicate, professional makeup that enhances natural features. Focus on soft, well-defined eyes and natural, dewy tones to complement the high-end magazine aesthetic.
     *   **Expression:** Intense direct eye contact with the camera, with slightly parted, moist, and inviting sultry lips to enhance the alluring atmosphere.
 5.  **Apply Lighting & Texture:**
-    *   **Lighting:** Use professional cover-style lighting. Ensure the face is exceptionally well-lit with soft, flattering front or three-quarter light to present the character clearly and stunningly. Complement this with dramatic side lighting to sculpt the body and a mandatory strong rim light to make hair glow and separate the subject from the background.
+    *   **Lighting:** Use professional cover-style lighting. Ensure the face is exceptionally well-lit with soft, flattering front or three-quarter light and **distinct face highlights** to present the character clearly and stunningly. Complement this with dramatic side lighting to sculpt the body and a mandatory strong rim light to make hair glow and separate the subject from the background.
     *   **Texture:** Ensure skin shows a distinct moist, dewy sheen that catches highlights, enhancing the radiant appearance.
 6.  **Verify Specifications:** Before proceeding to final generation, verify that the prompt explicitly includes:
     *   Precise **eye color** matching the character reference.
