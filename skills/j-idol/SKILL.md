@@ -1,6 +1,6 @@
 ---
 name: j-idol
-description: Adapts fictional characters into high-fidelity, photorealistic human portraits in the style of J-Idol and Gravure magazine photography.
+description: Creates photorealistic J-Idol gravure portraits featuring 2:3 knee-up framing, dreamy bokeh, moist skin textures, and professional rim lighting.
 version: 3.2.0
 ---
 

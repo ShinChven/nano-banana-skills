@@ -25,12 +25,12 @@
     },
     {
       "name": "j-cover",
-      "description": "Analyzes and reconstructs J-Media and Gravure cover designs using a 4-axis structural layering approach.",
+      "description": "Designs J-Media magazine covers via 20% outpainting, auto-sampling outfit palettes, and adding bilingual typography with barcodes and lore-accurate details.",
       "path": "skills/j-cover/SKILL.md"
     },
     {
       "name": "j-idol",
-      "description": "Adapts fictional characters into high-fidelity, photorealistic human portraits in the style of J-Idol and Gravure magazine covers.",
+      "description": "Creates photorealistic J-Idol gravure portraits featuring 2:3 knee-up framing, dreamy bokeh, moist skin textures, and professional rim lighting.",
       "path": "skills/j-idol/SKILL.md"
     },
     {

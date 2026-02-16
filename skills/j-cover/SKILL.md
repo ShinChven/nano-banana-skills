@@ -1,6 +1,6 @@
 ---
 name: j-cover
-description: Analyzes and reconstructs J-Media and Gravure cover designs using a 4-axis structural layering approach.
+description: Designs J-Media magazine covers via 20% outpainting, auto-sampling outfit palettes, and adding bilingual typography with barcodes and lore-accurate details.
 version: 1.0.0
 ---
 
