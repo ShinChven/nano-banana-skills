@@ -26,6 +26,11 @@ version: 1.0.0
     * Content: The character's name in Japanese and vertical text describing the mood.
     * Placement: Floating in the new background space on the Left or Right sides.
 
+* **Character Name & Intro (English):**
+    * Main Title: Large-font character name in English.
+    * Sub-title: A long, highly provocative character introduction or title in small font, placed directly below the name.
+    * Placement: Positioned beside the character in the negative space.
+
 * **Captions (English):**
     * Content: Short, engaging teasers.
     * Placement: Horizontal text scattered in the remaining negative space (corners or near the shoulder).
@@ -34,8 +39,8 @@ version: 1.0.0
 * **Lore Icon:** Add a specific faction/game icon in a top corner.
 * **Magazine Data:**
     * Barcode in bottom right.
-    * Price: "¥980"
-    * Date: "AUGUST 2025" (English)
+    * Price: (make a random price in Japanese ¥)
+    * Date: (Make a magazine month year combination)
 
 # OUTPUT GOAL
-Generate A high-quality magazine cover scan. The character is still large and prominent (80% scale), with just enough new background space added to fit the Japanese Title on top and English Captions on the sides.
+Generate a high-quality magazine cover scan. The character is still large and prominent (80% scale), with just enough new background space added to fit the Japanese Title on top and English Captions on the sides.
