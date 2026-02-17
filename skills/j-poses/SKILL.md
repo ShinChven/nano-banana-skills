@@ -24,3 +24,4 @@ A collection of refined and alluring poses inspired by Japanese photography styl
 * **The Seated Recline**: Sitting sideways with legs tucked, one arm supporting her weight behind her while the other hand trails up her leg or rests on her waist, creating a dynamic diagonal line.
 * **The Over-the-Shoulder Tease**: Back to the camera with a deep arch in the lower back, looking back with an intense gaze, hands resting on the small of the back or gently tugging at the hem of the garment.
 * **The Soft Embrace**: Standing or kneeling, arms crossed under the bust to push up and accentuate curves, fingers lightly grazing the skin of the upper arms or shoulders.
+* **The Asymmetrical Femoral-Cross**: Seated upright with legs crossed (right over left). Torso rotated slightly left, left hand resting on the thigh, and right hand touching the collarbone. Head tilted slightly, gazing directly forward.
