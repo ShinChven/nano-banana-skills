@@ -1,7 +1,6 @@
 ---
 name: real-mecha
 description: Converts 2D/anime mecha art into photorealistic 3D/real-world visualizations with high-fidelity material textures.
-version: 1.0.0
 ---
 
 # Real Mecha

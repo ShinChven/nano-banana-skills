@@ -1,7 +1,6 @@
 ---
 name: photo-restoration
 description: Restores vintage and blurry photos to high-definition 8k images while preserving identity.
-version: 1.0.0
 ---
 
 # Photo Restoration

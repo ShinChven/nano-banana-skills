@@ -10,7 +10,7 @@
     },
     {
       "name": "character-reference-sheet",
-      "description": "Generates character reference sheets with research-backed details. Supports split-screen (default), 2x2, and 3x3 layouts with mandatory front/back views and dynamic poses.",
+      "description": "Generates a 3:2 aspect ratio character reference sheet with three columns: detailed portrait, full-body front view, and full-body back view, mirroring the exact style and material details of the source.",
       "path": "skills/character-reference-sheet/SKILL.md"
     },
     {

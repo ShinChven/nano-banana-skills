@@ -1,7 +1,6 @@
 ---
 name: figure-to-life
 description: Converts figure photos to photorealistic human cosplayer images using a strict JSON-based reasoning mandate.
-version: 1.0.0
 ---
 
 # Figure to Life

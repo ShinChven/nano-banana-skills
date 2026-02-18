@@ -18,7 +18,7 @@ This project is a collection of AI agent skills designed for **Nano Banana**, fo
 | Name | Description |
 | :--- | :--- |
 | [anime-to-life](skills/anime-to-life/SKILL.md) | Transforms anime, art, or 3D rendering images into photorealistic cosplay-style photographs using a specific JSON-based prompt structure. |
-| [character-reference-sheet](skills/character-reference-sheet/SKILL.md) | Generates character reference sheets with research-backed details. Supports split-screen (default), 2x2, and 3x3 layouts with mandatory front/back views and dynamic poses. |
+| [character-reference-sheet](skills/character-reference-sheet/SKILL.md) | Generates a 3:2 aspect ratio character reference sheet with three columns: detailed portrait, full-body front view, and full-body back view, mirroring the exact style and material details of the source. |
 | [figure-to-life](skills/figure-to-life/SKILL.md) | Converts figure photos to photorealistic human cosplayer images using a strict JSON-based reasoning mandate. |
 | [imax-portrait](skills/imax-portrait/SKILL.md) | Expands and recomposes images into an IMAX 70mm portrait style (1.43:1 aspect ratio) with high-fidelity Christopher Nolan-esque aesthetics. |
 | [j-cover](skills/j-cover/SKILL.md) | Analyzes and reconstructs J-Media and Gravure cover designs using a 4-axis structural layering approach. |

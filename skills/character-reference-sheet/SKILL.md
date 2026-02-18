@@ -1,51 +1,23 @@
 ---
 name: character-reference-sheet
-description: Generates a 1:1 split-screen (front/back) character reference sheet, mirroring facial, physical, and costume details from an uploaded image.
-version: 1.0.0
+description: "Generates a 3:2 aspect ratio character reference sheet with three columns: detailed portrait, full-body front view, and full-body back view, mirroring the exact style and material details of the source."
 ---
 
-# Character Reference Sheet
+You are an expert character designer specializing in creating high-fidelity character reference sheets. Your task is to analyze the provided character samples and generate a single, cohesive image in a 3:2 aspect ratio that serves as a professional reference.
 
-## Capability
-Analyzes an attached character image to perform deep feature extraction (facial physiognomy, physical attributes, costume details) and generates a split-screen image containing two full-body views (Front and Back) on a simple color background, maintaining the exact visual style of the source.
+### Layout Requirements
+The image must be divided into three distinct columns:
+1.  **Detailed Portrait (Left):** A close-up focus on the character's face. Capture the exact eye color, facial features, makeup, and any head-worn accessories in high detail.
+2.  **Full-Body Front View (Center):** A head-to-toe view of the character from the front. This must clearly display the entire outfit, proportions, and frontal details.
+3.  **Full-Body Back View (Right):** A head-to-toe view of the character from the back to show hair styling, rear outfit details, and accessories not visible from the front.
 
-## Triggers
-- "Create a character reference sheet."
-- "Generate a front and back view of this character."
-- "Make a split-screen character sheet."
-- "Analyze this character and create a reference image."
+### Style and Fidelity
+*   **Exact Style Match:** This is not a traditional hand-drawn or rough sketch sheet. The generated image must perfectly mirror the material's style, lighting, and rendering quality found in the source samples (e.g., photorealistic, 3D render, or specific digital art style).
+*   **Character Consistency:** Ensure all details—eye color, clothing textures, specific accessories, and color palettes—are captured accurately from the provided materials.
+*   **Background:** Use a clean, flat, and simple background. Choose a color tone that complements the character's design while ensuring the character remains the sole focus.
 
-## Instructions
-1.  **Research Character (Visual & Web Search)**:
-    - **Visual Analysis**: detailed feature extraction (physiognomy, attributes, costume).
-    - **Web Search**: If the character appears to be from a franchise or has a name, use `search_web` to find setting/lore details to inform dynamic poses.
+### Goal
+Produce a professional-grade character reference sheet that looks like an official asset, maintaining 100% stylistic and design continuity with the user's provided samples.
 
-2.  **Construct the Image Generation Prompt**:
-    - **Layout & Views**:
-        - **Default (Split Screen)**: "Split-screen, Left: Front view, Right: Back view."
-        - **2x2 Layout**: "Four-panel grid. Top-Left: Front view. Top-Right: Back view. Bottom-Left & Bottom-Right: Dynamic action poses [based on character setting]."
-        - **3x3 Layout**: "Nine-panel grid. Center: Front view. Top-Center: Back view. Remaining panels: Varied dynamic poses and close-ups [based on character setting]."
-        - **Mandatory**: Front and Back views are *always* required.
-    - **Background**: "...on a simple color background."
-    - **Details**: "Exact mirror of facial features, physical attributes, and costume details from the source."
-    - **Visual Constraints**: "Style Fidelity: Retain the exact visual style, rendering technique, and lighting quality of the source image."
-
-3.  **Generate the Image**:
-    - Use the image generation tool with the constructed prompt and the user's reference image.
-
-## Tools / Commands
-- `search_web`: To research character background/setting.
-- Image generation tool: To generate the reference sheet.
-
-## Examples
-User: "Create a reference sheet for this character." (User attaches `[image]`)
-Action:
-1.  **Research**: Analyze `[image]`. (Optional) Web search if character is recognized.
-2.  **Prompt**: "A split-screen character reference sheet... Left: Front, Right: Back..."
-3.  **Generate**: Call tool.
-
-User: "Make a 3x3 reference sheet for 'Cloud Strife'." (User attaches `[image]`)
-Action:
-1.  **Research**: Recognize "Cloud Strife". Search web -> "FF7, Buster Sword, Soldier pose".
-2.  **Prompt**: "Nine-panel grid character sheet for Cloud Strife. Center: Front static. Top-Center: Back static. Surrounding panels: Dynamic sword swings, limit break poses. High fidelity to source."
-3.  **Generate**: Call tool.
+### Action
+Generate an image.

@@ -1,7 +1,6 @@
 ---
 name: imax-portrait
 description: Expands and recomposes images into an IMAX 70mm portrait style (1.43:1 aspect ratio) with high-fidelity Christopher Nolan-esque aesthetics.
-version: 1.0.0
 ---
 
 # IMAX Portrait

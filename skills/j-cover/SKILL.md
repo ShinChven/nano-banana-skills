@@ -1,7 +1,6 @@
 ---
 name: j-cover
 description: Designs J-Media magazine covers via 20% outpainting, auto-sampling outfit palettes, and adding bilingual typography with barcodes and lore-accurate details.
-version: 1.0.0
 ---
 
 # ROLE: Expert Magazine Layout Designer & Image Editor

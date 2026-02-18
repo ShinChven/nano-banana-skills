@@ -1,7 +1,6 @@
 ---
 name: anime-to-life
 description: Transforms anime, art, or 3D rendering images into photorealistic cosplay-style photographs.
-version: 1.2.0
 ---
 
 # Anime to Life
