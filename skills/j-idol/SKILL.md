@@ -1,7 +1,6 @@
 ---
 name: j-idol
 description: Creates photorealistic J-Idol gravure portraits featuring 2:3 knee-up framing, dreamy bokeh, moist skin textures, and professional rim lighting.
-version: 3.2.0
 ---
 
 ## declare process
